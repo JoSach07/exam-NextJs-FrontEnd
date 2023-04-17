@@ -1,10 +1,8 @@
 import { WithDefaultLayout } from '@/components/DefautLayout';
 import { Title } from '@/components/Title';
-import { BelajarNextJsBackEndClient, Restaurant } from '@/functions/swagger/BelajarNextJsBackEnd';
+import { Restaurant } from '@/functions/swagger/BelajarNextJsBackEnd';
 import { useSwrFetcherWithAccessToken } from '@/functions/useSwrFetcherWithAccessToken';
 import { Page } from '@/types/Page';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Alert } from 'antd';
 import Link from 'next/link';
 import useSwr from 'swr';
